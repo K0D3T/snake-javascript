@@ -4,11 +4,18 @@
 > Snake game in javascript where you can eat two type of apples with different points. 
 
 
+
+
+->![Screenshot](img/ground.png)<-
+
+
+
+
 ## Table of Contents
 
 - [Background](#background)
 - [Install](#install)
-- [Maintainers](#usage)
+- [Maintainers](#maintainers)
 - [License](#license)
 
 ## Background
