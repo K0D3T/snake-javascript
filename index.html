@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="img/icon.png" type="image/png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Snake</title>
+        
+        <style>
+            canvas{
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <canvas id="snake" width="608" height="608"></canvas>
+    
+    <!-- Modal of the game over -->
+    <div id="modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Game Over!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Content to update from game.js-->
+                <p id="modal-body"></p>   
+            </div>
+            <div class="modal-footer">
+              <button type="button" onClick="document.getElementById('modal').style.display = 'none'; window.location.reload(false); "class="btn btn-secondary" data-dismiss="modal">Restart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game script -->
+    <script src="game.js"></script>
+    
+</html>
