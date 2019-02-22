@@ -6,7 +6,7 @@
 
 
 
-->![Screenshot](img/ground.png)<-
+![Screenshot](img/ground.png)
 
 
 
